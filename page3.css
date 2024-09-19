@@ -1,0 +1,41 @@
+.page3 {
+    width: 984px;
+    height: 700px;
+    flex-grow: 0;
+    margin: 0;
+    padding: 0;
+    /*padding: 39px 71px 18px 50px;*/
+    box-sizing: border-box;
+    background-color: #000;
+  }
+
+  img.loading {
+    width: 400px;
+    height: 85px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img.top {
+    width: 920px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+  }
+
+  img.bottom {
+    width: 920px;
+    height: 243px;
+    overflow: hidden;
+    position: relative;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+

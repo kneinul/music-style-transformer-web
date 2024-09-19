@@ -1,0 +1,41 @@
+.page4 {
+    width: 984px;
+    height: 700px;
+    flex-grow: 0;
+    margin: 0;
+    padding: 0;
+    /*padding: 39px 71px 18px 50px;*/
+    box-sizing: border-box;
+    background-color: #000;
+  }
+
+  img.center {
+    width: 870px;
+    height: 462px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img.Play-the-Music {
+    width: 470px;
+    height: 259px;
+    overflow: hidden;
+    position: relative;
+    top: -45%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+
+  img.START {
+    width: 300px;
+    height: 124px;
+    overflow: hidden;
+    position: relative;
+    top: -20%;
+    left: 2%;
+    transform: translate(-50%, 0%);
+  }
