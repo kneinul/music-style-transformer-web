@@ -1,6 +1,6 @@
 .page1 {
-  width: 1069px;
-  height: 760px;
+  width: 984px;
+  height: 700px;
   flex-grow: 0;
   margin: 0;
   padding: 0;
@@ -8,14 +8,15 @@
   box-sizing: border-box;
   background-color: #000;
 }
- 
-}
 
 img.cloud-upload {
   width: 380px;
   height: 380px;
-  margin: 15px 222px 51px 251px;
+  /*margin: 15px 222px 51px 251px;*/
+  overflow: hidden;
+  position: relative;
   top: 50%;
   left: 50%;
-  object-fit: contain;
+  /*object-fit: contain;*/
+  transform: translate(-50%, -50%);
 }
